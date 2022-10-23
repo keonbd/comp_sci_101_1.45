@@ -1,0 +1,15 @@
+''' Type your code here. '''
+import math
+f0 = float(input())
+n = 0
+r = math.pow(2, (1/12))
+fn = f0 * math.pow(r, n)
+n = 1
+fn_2 = f0 * math.pow(r, n)
+n = 2
+fn_3 = f0 * math.pow(r, n)
+n = 3
+fn_4 = f0 * math.pow(r, n)
+n = 4
+fn_5 = f0 * math.pow(r, n)
+print(f'{fn:.2f} {fn_2:.2f} {fn_3:.2f} {fn_4:.2f} {fn_5:.2f}')
